@@ -1,7 +1,7 @@
 
 # ETL-GDP-Data-Pipeline
 
-This project demonstrates the creation of an ETL (Extract, Transform, Load) pipeline that extracts GDP data from a web source, transforms it, and loads it into both a CSV file and a SQLite database. Additionally, the project includes querying the database to extract relevant information and logging the entire ETL process.
+This project demonstrates the creation of an ETL (Extract, Transform, Load) pipeline that extracts GDP data from a web source, transforms it and loads it into both a CSV file and a SQLite database. Additionally, the project includes querying the database to extract relevant information and logging the entire ETL process.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -10,11 +10,10 @@ This project demonstrates the creation of an ETL (Extract, Transform, Load) pipe
 - [Requirements](#requirements)
 - [Usage](#usage)
 - [Results](#results)
-- [License](#license)
 
 ## Project Overview
 
-This project was designed as a hands-on lab to practice ETL operations on real-world data. The goal is to automate the extraction, transformation, and loading of GDP data from a given URL, making it accessible as a CSV file and a database table.
+This project was designed as a hands-on lab to practice ETL operations on real-world data. The goal is to automate the extraction, transformation and loading of GDP data from a given URL, making it accessible as a CSV file and a database table.
 
 ### Objectives
 - Extract relevant GDP information from a website.
@@ -81,7 +80,3 @@ pip install beautifulsoup4 requests pandas numpy
 ## Results
 
 After running the notebook, you will obtain a CSV file and an SQLite database containing the GDP data. The notebook also queries the database to find countries with GDPs exceeding 100 billion USD and logs each step of the process.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
