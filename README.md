@@ -31,7 +31,6 @@ This project was designed as a hands-on lab to practice ETL operations on real-w
 
 ## Project Structure
 
-\`\`\`plaintext
 ETL-GDP-Data-Pipeline/
 │
 ├── etl_project_gdp.ipynb   # Jupyter notebook containing the project code
@@ -39,7 +38,7 @@ ETL-GDP-Data-Pipeline/
 ├── World_Economies.db      # SQLite database file created by the project (after running the notebook)
 ├── etl_project_log.txt     # Log file generated during the ETL process (after running the notebook)
 ├── README.md               # This README file
-\`\`\`
+
 
 ## Requirements
 
